@@ -40,6 +40,7 @@ It is possible to redefine this variable with a subset of roles or with differen
 |`eda_validate_certs`|`True`|no|Whether or not to validate the EDA Controller Server's SSL certificate.||
 |`eda_username`|""|no|Admin User on the EDA Controller Server.||
 |`eda_password`|""|no|EDA Admin User's password on the EDA Controller Server. This should be stored in an Ansible Vault at vars/eda-secrets.yml or elsewhere and called from a parent playbook.||
+
 ### Secure Logging Variables
 
 The role defaults to False as normally most projects task does not include sensitive information.
