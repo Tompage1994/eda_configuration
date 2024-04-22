@@ -8,7 +8,7 @@ jobs:
       fail-fast: false
       matrix:
         eda_server_version:
-          - main
+          - 93ef155accc3013f82a4870569638e7e1eaf2adc
     uses: "./.github/workflows/ci_standalone_versioned.yml"
     with:
       eda_server_version: ${{ matrix.eda_server_version }}
