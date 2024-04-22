@@ -52,7 +52,7 @@ This also speeds up the overall role.
 |`new_name`|""|no|str|Setting this option will change the existing name (looked up via the name field.)|
 |`description`|""|no|str|Description to use for the Project.|
 |`url`|""|yes|str|A URL to a remote archive, such as a Github Release or a build artifact stored in Artifactory and unpacks it into the project path for use. (Alias: scm_url)|
-|`tls_validation`|""|no|bool|Whether the URL should validate using TLS.|
+|`tls_validation`|true|no|bool|Whether the URL should validate using TLS.|
 |`credential`|""|no|str|The token needed to utilize the SCM URL.|
 |`state`|`present`|no|str|Desired state of the project.|
 
